@@ -1,4 +1,4 @@
 <?php
-echo 123;
+echo 456;
 exec(dirname(__FILE__) . '/update.sh');
 ?>
