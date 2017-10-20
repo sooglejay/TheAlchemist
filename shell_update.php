@@ -1,3 +1,3 @@
 <?php
-exec(dirname(__FILE__) . '/update.sh');
+exec('cd /var/www/html/jw/TheAlchemist/ && git reset --hard HEAD && git pull');
 ?>
