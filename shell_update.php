@@ -1,4 +1,4 @@
 <?php
-echo "test";
-system(" git pull");
+$path = dirname(__FILE__);
+exec(" cd $path & git pull");
 ?>
