@@ -20,16 +20,16 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', 'jw_wp_blog');
+define('DB_NAME', 'jw');
 
 /** MySQL数据库用户名 */
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '12345678');
 
 /** MySQL主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '115.29.204.92');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8mb4');
@@ -47,15 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '.#J]M0xO|U/ikiiC#@Av-;Ic<oj ;4 bG2j3yd2?z-~$<m5>gqKLtbi?*U]hx$_k');
-define('SECURE_AUTH_KEY',  'Ki$<j8&4IDX@kz&fu*uY9.-Nr+i>B(C.%*6TM1)|Bd}Q?FsEq8LPxN4P)8EcN)]V');
-define('LOGGED_IN_KEY',    'xJWeX?]LOY]Ybb.||,1gU7dxBJbDr5`L):><&y`dG^=za0~~I,S5sJEGgxR/k,^L');
-define('NONCE_KEY',        'wF.{t7Hjwug)N ?HIyM/c+nSB0jbc^+OubaptyqA@O#)Jyp]EisHLlf=)Aq*`C.D');
-define('AUTH_SALT',        'X]1gfH}Z;G6p$]t[Mn1#G2L;Qi:qslNzv>>9zwQ1MHGH?S`o8wTf:o,CO-dnt/JY');
-define('SECURE_AUTH_SALT', '9bfNoN:5Ph{sw#O}Ue_`gnux$es1f9uc$#}MV6[ ;:0L$[n4%H;?T:>`].LVmPzY');
-define('LOGGED_IN_SALT',   ':StgX~;lHrsgM&F@>h^]yZmGk5Hu1YHoB05j^`S@/{az@=:ia^O]mt`fFg+&UEtT');
-define('NONCE_SALT',       'RN=JR@.^3cx&/^{,E+d/I<t)MUWC>;F%.8v#)V9{IJd2xkMQPG)W0gX6L|oV0vNg');
-
+define('AUTH_KEY',         'f8cN@bI`eb%Ut.r.<pq+[?<=,}GQ:62].F6wHlfeJ2Dm+L;G|[UNcw+fl0%!Hh_l');
+   define('SECURE_AUTH_KEY',  'Z%@wC~Ij:/426K`m[6#^L&O?%D.9>8e}vORi+]|]6:u3E_cuH=iW=;lNN%}~W))n');
+   define('LOGGED_IN_KEY',    'Ly@M<:Ymf5-Jr<Oaa9#c9`&^@B8)NrDSC^*#|kNX@BCu%{Df{hNxxs!hb?$UY*kg');
+   define('NONCE_KEY',        'eW!(;`7n**O%mu;5!Vur,*$M?Yb5_gHL3] /AP/]g7J<ablL7^N]M0_YZXf=W?K<');
+   define('AUTH_SALT',        '*u2-*<RB5+LG2IS9m}-lIrxF%fA>Tl^|o=SFd%UF|.:(=7kRZ0!U;{mtuXgLW`c_');
+   define('SECURE_AUTH_SALT', 'Wj S*aqJ,)vm.$_()2}^YgM__%u{[Qj$uNtjrrQ%Vf!a>G!I]4}Z$Q%BDV)5)|7|');
+   define('LOGGED_IN_SALT',   '#I*PcSVM#f/7mn5CB;T]QM:vr-X7N%:}U8WMlpE4h/E+Iv0IQuk<0[%/17;hvm~9');
+   define('NONCE_SALT',       'c$X]`-KzG_lmm5A=`$(6mZS/Zu.)b},^y$p#>4;Ie;9{jorCcjHWvB8z]+k`_I#/');
 /**#@-*/
 
 /**
