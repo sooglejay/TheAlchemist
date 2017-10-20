@@ -1,2 +1,2 @@
-!#bin
-eval "/usr/bin/git pull"
+#!/bin/sh
+eval "git pull"
